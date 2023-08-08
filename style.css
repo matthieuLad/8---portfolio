@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Semplicita';
+    src: url(fonts/Semplicita-Light.otf) format('opentype');
+    font-style: normal;
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Semplicita';
+    src: url(fonts/Semplicita-Medium.otf) format('opentype');
+    font-style: normal;
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Semplicita';
+    src: url(fonts/Semplicita-Bold.otf) format('opentype');
+    font-style: normal;
+    font-weight: 700;
+  }
+
+body {
+    margin: 20px;
+    font-family: 'Semplicita';
+}
+
+main {
+    margin: auto;
+}
+
+p {
+    font-weight: 300;
+    color: #1E1E1E;
+}
+
+.chapeau {
+    font-size: 48px;
+    margin: 25px 0 0 0;
+}
+
+.highlight {
+    font-weight: 500;
+    color: #E29C2D;
+}
+
+.highlight-black{
+    font-weight: 500;
+}
+
+#introduction {
+    background-color: #E1E4E3;
+}
+
+.intro {
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 30px;
+    max-width: 80%;
+    margin: auto;
+    padding: 120px 0 135px 0;
+}
+
+.avatar {
+    width: 347.655px;
+    height: 484.401px;
+    transform: rotate(3.046deg);
+    flex-shrink: 0;
+}
+
+.intro-txt {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.intro-txt > h1 {
+    color: #1E1E1E;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 300;
+    margin: 40px 0 0 0;
+}
