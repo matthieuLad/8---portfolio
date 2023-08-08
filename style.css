@@ -20,20 +20,40 @@
 body {
     margin: 20px;
     font-family: 'Semplicita';
+    color: #E1E4E3;
 }
 
 main {
     margin: auto;
 }
 
+h2 {
+    margin: 0;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 42px;
+    margin: 100px 0 0 0;
+}
+
 p {
     font-weight: 300;
-    color: #1E1E1E;
 }
 
 .chapeau {
     font-size: 48px;
     margin: 25px 0 0 0;
+}
+
+.more {
+    font-weight: 500;
+    font-size: 32px;
 }
 
 .highlight {
@@ -45,8 +65,14 @@ p {
     font-weight: 500;
 }
 
+.highlight-bold {
+    font-weight: 700;
+    color: #E29C2D;
+}
+
 #introduction {
     background-color: #E1E4E3;
+    padding: 120px 40px 135px 40px;
 }
 
 .intro {
@@ -54,15 +80,15 @@ p {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 30px;
-    max-width: 80%;
+    max-width: 1100px;
     margin: auto;
-    padding: 120px 0 135px 0;
+    /* padding: 120px 0 135px 0; */
 }
 
 .avatar {
     width: 347.655px;
     height: 484.401px;
-    transform: rotate(3.046deg);
+    transform: rotate(3deg);
     flex-shrink: 0;
 }
 
@@ -78,4 +104,46 @@ p {
     font-style: normal;
     font-weight: 300;
     margin: 40px 0 0 0;
+}
+
+.intro-txt > p {
+    color: #1E1E1E;
+}
+
+#lets-work {
+    background-color: #16535E;
+    padding: 0 40px 200px 40px;
+}
+
+.lets-work-intro {
+    display: flex;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.lets-work-intro > .chapeau {
+    max-width: 890px;
+}
+
+.skills-table {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 50px auto 0 auto;
+    gap: 50px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.skill > img {
+    width: 150px;
+}
+
+.skill-txt > p {
+    font-size: 32px;
 }
