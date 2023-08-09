@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matthieu Ladouce - Développeur web</title>
     <link rel="stylesheet" href="style.css">
+    <script type="module" src="./modules/modal.js" defer></script>
 </head>
 <body>
     <main>
@@ -75,12 +76,12 @@
                     <img src="./images/golden-line.png" alt="ligne dorée" />
                 </div>
                 <div class="projects-table">
-                    <div class="project">
+                    <a class="project" id="js-modal1" href="">
                         <img src="./images/capture grimoire.png" alt="capture du site Mon vieux grimoire">
-                    </div>
-                    <div class="project">
+                    </a>
+                    <a class="project" href="">
                         <img src="./images/capture grimoire.png" alt="capture du site Mon vieux grimoire">
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -95,7 +96,7 @@
     <aside id="modal1" class="modal">
         <div class="modal-wrapper js-modal-stop">
           <div class="modal-header">
-            <a href=""><img src="./images/clear.svg" alt=""></a>
+            <a href=""><img src="./images/clear.svg" class="modal-close" alt=""></a>
           </div>
           <div class="modal-content">
             <img src="./images/carducci-capture 1.png" />

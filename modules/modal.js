@@ -1,19 +1,19 @@
-const openModal = function (e) {
+const openModal1 = function (e) {
     e.preventDefault();
-    const target = document.getElementsByClassName("modal")[0];
+    const target = document.getElementById("modal1");
     target.style.display = "flex";
-    target.addEventListener("click", closeModal);
+    target.addEventListener("click", closeModal1);
     target
       .querySelector(".js-modal-stop")
       .addEventListener("click", stopPropagation);
-    target.querySelector(".fa-xmark").addEventListener("click", closeModal);
+    target.querySelector(".modal-close").addEventListener("click", closeModal1);
   };
   
-  const closeModal = function (e) {
+  const closeModal1 = function (e) {
     e.preventDefault();
-    const target = document.getElementsByClassName("modal")[0];
+    const target = document.getElementById("modal1");
     target.style.display = "none";
-    target.removeEventListener("click", closeModal);
+    target.removeEventListener("click", closeModal1);
     backToModalOne(e);
   };
   
@@ -21,6 +21,4 @@ const openModal = function (e) {
     e.stopPropagation();
   };
   
-  document.querySelectorAll(".js-modal").forEach((a) => {
-    a.addEventListener("click", openModal);
-  });
+  document.getElementById("js-modal1").addEventListener("click", openModal1); 
