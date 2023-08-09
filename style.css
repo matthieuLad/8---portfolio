@@ -172,7 +172,7 @@ p {
 
 .technos-logos > img {
     height: 90px;
-    fill: #E1E4E3;
+    filter: invert(95%) sepia(8%) saturate(41%) hue-rotate(109deg) brightness(95%) contrast(94%);
 }
 
 #projects {
