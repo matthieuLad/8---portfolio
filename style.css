@@ -247,7 +247,8 @@ background: rgba(30, 30, 30, 0.85);
   .modal-wrapper {
     background:#E1E4E3;
     width: 1015px;
-    height: 830px;
+    height: auto;
+
     max-width: calc(100vw - 20%);
     max-height: calc(100vh - 10%);
     overflow: auto;
