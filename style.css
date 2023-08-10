@@ -34,21 +34,25 @@ h2 {
 h3 {
   font-weight: 700;
   font-size: 36px;
+  margin: 0;
 }
 
 .title {
   font-weight: 700;
   font-size: 42px;
-  margin: 100px 0 0 0;
+  margin: 60px 0 0 0;
 }
 
 p {
   font-weight: 300;
+  line-height: 1.5;
+  font-size: 24px;
 }
 
 .chapeau {
-  font-size: 48px;
+  font-size: 24px;
   margin: 25px 0 0 0;
+  line-height: 1.5;
 }
 
 .more {
@@ -111,7 +115,7 @@ p {
 
 #lets-work {
   background-color: #16535e;
-  padding: 0 40px 200px 40px;
+  padding: 0 40px 100px 40px;
 }
 
 .lets-work-intro {
@@ -143,13 +147,9 @@ p {
   width: 150px;
 }
 
-.skill-txt > p {
-  font-size: 32px;
-}
-
 #technos {
   background-color: #1e1e1e;
-  padding: 0 40px 135px 40px;
+  padding: 0 40px 100px 40px;
 }
 
 .technologies {
@@ -176,7 +176,7 @@ p {
 
 #projects {
   background-color: #16535e;
-  padding: 0 40px 200px 40px;
+  padding: 0 40px 100px 40px;
 }
 
 .projects-container {
@@ -189,7 +189,7 @@ p {
 .projects-table {
   display: flex;
   justify-content: center;
-  padding: 90px auto 0 auto;
+  padding: 50px auto 0 auto;
   gap: 5vw 3.5vw;
   margin-top: 90px;
   flex-wrap: wrap;
@@ -331,6 +331,16 @@ ul {
   margin: 20px 0 0 0;
 }
 
+.modal-txt > a {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 20px 0 0 0;
+    color: #1e1e1e;
+    display: inline-block;
+    text-decoration: none;
+  }
+
+
 .modal-txt > p,
 ul {
   font-size: 24px;
@@ -450,6 +460,10 @@ ul {
         display: none;
       }
 
+      .technologies > .skills-table {
+        display: none;
+      }
+
       #projects {
         padding: 0 25px 80px 25px;
       }
@@ -520,6 +534,10 @@ margin-bottom: 10px;
       }
 
       .modal-txt > p, ul {
+        font-size: 20px;
+      }
+
+      .modal-txt > a {
         font-size: 20px;
       }
 
