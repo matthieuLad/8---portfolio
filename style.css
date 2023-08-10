@@ -489,7 +489,7 @@ ul {
 
       .modal-wrapper {
         width: calc(100vw - 30%);
-        height: calc(100vh - 20%);
+        height: calc(100vh - 30%);
         padding: 15px 25px 25px 25px;
       }
 
