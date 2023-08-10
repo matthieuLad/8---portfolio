@@ -6,6 +6,7 @@
     <title>Matthieu Ladouce - Développeur web</title>
     <link rel="stylesheet" href="style.css" />
     <script type="module" src="./modules/modal.js" defer></script>
+    <script type="module" src="./modules/hidden-email.js" defer></script>
   </head>
   <body>
     <main>
@@ -156,13 +157,13 @@
     </main>
     <footer>
       <div class="footer-logos">
-        <a href="mailto:test@test.com"
-          ><img src="./images/email.svg" alt="email"
-        /></a>
-        <a href="https://github.com/TurboTruite"
+        <a id="contact" href=""><img src="./images/email.svg" alt="email" /></a>
+        <a href="https://github.com/TurboTruite" target="_blank"
           ><img src="./images/github.svg" alt="Github"
         /></a>
-        <a href="https://www.linkedin.com/in/matthieu-ladouce-4b9a5880/"
+        <a
+          href="https://www.linkedin.com/in/matthieu-ladouce-4b9a5880/"
+          target="_blank"
           ><img src="./images/linkedin.svg" alt="linkedin"
         /></a>
       </div>
