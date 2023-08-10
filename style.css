@@ -451,4 +451,84 @@ ul {
       .technologies > .title {
         display: none;
       }
+
+      #projects {
+        padding: 0 25px 80px 25px;
+      }
+
+      .projects-table {
+        margin-top: 50px;
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .project > img {
+        height: 100%;
+        width: 100%;
+        box-shadow: 6px 4px 11px 0px rgba(0, 0, 0, 0.25);
+      }
+
+      .project-overlay {
+        height: 100%;
+        display: none;
+      }
+
+      footer {
+        padding: 30px 80px 30px 80px;
+      }
+
+      .footer-logos {
+        display: flex;
+        justify-content: center;
+        max-width: 700px;
+        gap: 20px;
+        margin: auto;
+      }
+
+      .footer-logos > a > img {
+        height: 40px;
+      }
+
+      .modal-wrapper {
+        width: calc(100vw - 30%);
+        height: calc(100vh - 20%);
+        padding: 15px 25px 25px 25px;
+      }
+
+      .modal-header {
+margin-bottom: 10px;
+      }
+
+      .modal-content {
+        flex-direction: column;
+        gap: 25px;
+      }
+
+      video {
+        width: 100%;
+        height: 100%;
+      }
+
+      .modal-header > a > img {
+        height: 25px;
+      }
+
+      .modal-txt > h4 {
+        font-size: 28px;
+      }
+
+      .modal-txt > h5 {
+        font-size: 20px;
+      }
+
+      .modal-txt > p, ul {
+        font-size: 20px;
+      }
+
+      .modal-tech-logos > img {
+        height: 30px;
+      }
+      
+
+
 }
