@@ -161,9 +161,9 @@ p {
 
 .technos-logos {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding: 90px auto 0 auto;
-  gap: 20px;
+  gap: 30px;
   margin-top: 90px;
   flex-wrap: wrap;
 }
@@ -436,11 +436,9 @@ ul {
       }
 
       .technos-logos {
-
         padding: 0;
         gap: 15px;
         margin: 0;
-
         flex-wrap: wrap;
       }
 
