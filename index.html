@@ -21,10 +21,10 @@
         <section id="lets-work">
             <div class="lets-work-intro">
                 <div class="title">
-                    <h2>Travaillons ensemble <span class="highlight-bold">!</span></h2>
+                    <h2>Travaillons ensemble&nbsp;<span class="highlight-bold">!</span></h2>
                     <img src="./images/golden-line.png" alt="ligne dorée" />
                 </div>
-                <p class="chapeau">Après une carrière dans le marketing et la gestion de projet, j'ai décidé de me réorienter vers une ancienne passion : le développement.</p>
+                <p class="chapeau">Après une carrière dans le marketing et la gestion de projet, j'ai décidé de me réorienter vers une ancienne passion&nbsp;: le développement.</p>
                 <p class="more">En savoir plus sur mon approche ></p>
             </div>
             <div class="skills-table">
@@ -46,7 +46,7 @@
                     <img src="./images/checklist.svg" alt="checklist" />
                     <div class="skill-txt">
                         <h3>Rigueur<span class="highlight-bold">.</span></h3>
-                        <p>Je mets un point dhonneur à ce que mon travail puisse s'intégrer au mieux à celui de mes collègues. Fournir un travail propre, optimisé et maintenable est pour moi une priorité.</p>
+                        <p>Je mets un point d'honneur à ce que mon travail puisse s'intégrer au mieux à celui de mes collègues. Fournir un travail propre, optimisé et maintenable est pour moi une priorité.</p>
                     </div>
                 </div>
             </div>
@@ -78,9 +78,15 @@
                 <div class="projects-table">
                     <a class="project" id="js-modal1" href="">
                         <img src="./images/capture-grimoire.webp" alt="capture du site Mon vieux grimoire">
+                        <div class="project-overlay">
+                            <div class="hover-title">Site de notation de livres</div>
+                        </div>
                     </a>
                     <a class="project" id="js-modal2" href="">
                         <img src="./images/capture-kasa.webp" alt="capture du site Kasa">
+                        <div class="project-overlay">
+                            <div class="hover-title">Clone d'Airbnb</div>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -99,12 +105,14 @@
             <a href=""><img src="./images/clear.svg" class="modal-close" alt=""></a>
           </div>
           <div class="modal-content">
-            <img src="./images/carducci-capture 1.png" />
+            <video playsinline autoplay muted loop>
+                <source src="./videos/grimoire-anim.mp4" type="video/mp4" />
+            </video>
             <div class="modal-txt">
                 <h4>Mon Vieux Grimoire</h4>
-                <h5>2023</h5>
+                <h5>2023 | Back-end</h5>
                 <h5>Challenges</h5>
-                <p>Site de notation de livres - les utilisateurs doivent être enregistrés pour pouvoir poster, éditer et supprimer de nouveaux livres et les évaluer. Les notes et moyennes doivent être mis à jour dynamiquement.
+                <p>Projet d'études OpenClassrooms.<br/>Les utilisateurs doivent être enregistrés pour pouvoir poster, éditer et supprimer de nouveaux livres et les évaluer. Les notes et moyennes doivent être mis à jour dynamiquement.<br/>
                 Le site doit respecter les directives du Green Code.</p>
                 <h5>Solutions</h5>
                 <ul>
@@ -112,7 +120,7 @@
                     <li>Identification JWT, avec stockage en bd des mots de passe cryptés</li>
                     <li>Gestion des permissions</li>
                     <li>Système de notation avec moyenne mise à jour à la volée</li>
-                    <li>Green code : optimisation des images uploadées à la volée (compression en webp grâce à Sharp)</li>
+                    <li>Green code&nbsp;: optimisation des images uploadées à la volée (compression en webp grâce à Sharp)</li>
                 </ul>
                 <div class="modal-tech-logos">
                     <img src="./images/react.svg" alt="React">
@@ -132,14 +140,14 @@
           </div>
           <div class="modal-content">
             <!-- <img src="./images/KASA-anim.gif" /> -->
-            <video autoplay loop>
-                <source src="video/KASA-anim.mp4" type="video/mp4" />
-              </video>
+            <video playsinline autoplay muted loop>
+                <source src="./videos/KASA-anim.mp4" type="video/mp4" />
+            </video>
             <div class="modal-txt">
                 <h4>Kasa</h4>
-                <h5>2023</h5>
+                <h5>2023 | Front-end</h5>
                 <h5>Challenges</h5>
-                <p>Le but de ce projet d'études OpenClassrooms était de réliser un clone d'Airbnb. Il était stipulé que le site devait être codé en React en utilisant au maxium la logique des modules, utiliser des animations modernes ainsi qu'être totalement dynamique et responsive.</p>
+                <p>Projet d'études OpenClassrooms.<br/>Le site devait être codé en React en utilisant au maxium la logique des modules, utiliser des animations modernes ainsi qu'être totalement dynamique et responsive.</p>
                 <h5>Solutions</h5>
                 <ul>
                     <li>Routage effectué avec React-router</li>
