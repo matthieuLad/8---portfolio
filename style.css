@@ -163,21 +163,6 @@ p {
   margin: auto;
 }
 
-.technologies > .skills-table {
-  gap: 20px;
-}
-
-.technologies > .skills-table > .skill {
-  gap: 30px;
-  flex-direction: row;
-  align-items: center;
-}
-
-.technologies > .skills-table > .skill > img {
-  height: 100px;
-  width: 100px;
-}
-
 .technos-logos {
   display: flex;
   justify-content: center;
@@ -188,7 +173,7 @@ p {
 }
 
 .technos-logos > img {
-  height: 50px;
+  height: 75px;
   filter: invert(95%) sepia(8%) saturate(41%) hue-rotate(109deg) brightness(95%)
     contrast(94%);
 }
@@ -269,7 +254,7 @@ footer {
 }
 
 .footer-logos > a > img {
-  height: 90px;
+  height: 75px;
 }
 
 /* Gestion des modales */
@@ -398,17 +383,8 @@ ul {
     text-align: center;
   }
 
-  .skill {
-    flex-direction: column;
-    align-items: center;
-    gap: 0;
-    margin-top: 30px;
-  }
-
-  .skill-txt {
-    margin-top: 20px;
-    width: 90%;
-    /* text-align: center; */
+  .technologies > .title {
+    display: none;
   }
 
   .project > img {
@@ -513,14 +489,6 @@ ul {
 
   .technos-logos > img {
     height: 30px;
-  }
-
-  .technologies > .title {
-    display: none;
-  }
-
-  .technologies > .skills-table {
-    display: none;
   }
 
   #projects {
